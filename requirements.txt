@@ -3,3 +3,5 @@ pandas
 streamlit>=1.30
 matplotlib
 requests
+openai
+sqlalchemy
