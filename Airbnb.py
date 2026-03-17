@@ -10,7 +10,7 @@ from openai import OpenAI
 import requests
 #import streamlit as st
 
-
+file = 'listings.csv'
 '''Data Cleaning'''
 def file_clean(file):
     df=pd.read_csv(file)
@@ -93,9 +93,7 @@ def run_query(query, df):
 # print(run_query(query,df) )
 
 
-#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
 
-#client = OpenAI(api_key="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")
 def generate_sql_query(question):
     prompt = f"""
     Convert the question into a SQL query.
