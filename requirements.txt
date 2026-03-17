@@ -1,6 +1,6 @@
 pandasql
 pandas
-nummpy
+numpy
 streamlit>=1.30
 matplotlib
 requests
